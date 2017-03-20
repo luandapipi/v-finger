@@ -1,0 +1,22 @@
+{
+  "name": "v-finger",
+  "version": "1.0.0",
+  "description": "a v-finger directive for vuejs",
+  "main": "v-finger.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luandapipi/v-finger.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luandapipi/v-finger/issues"
+  },
+  "homepage": "https://github.com/luandapipi/v-finger#readme"
+}
