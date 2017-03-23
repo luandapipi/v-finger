@@ -4,7 +4,7 @@
   * You can install it via npm:
 
 ```cmd
-  npm install v-finger
+  npm install vfinger
 ```
 
 # Intro
