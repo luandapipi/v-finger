@@ -16,7 +16,7 @@
   * Using Components
 
 ```cmd
-  import vfinger from 'v-finger';
+  import vfinger from 'vfinger';
 
   Vue.use(vfinger);
 ```
