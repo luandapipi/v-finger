@@ -26,7 +26,7 @@
 ```html
   <script src="//cdn.bootcss.com/vue/2.2.4/vue.js"></script>
 
-  <script src="./vue-tap.js"></script>
+  <script src="./v-finger.js"></script>
 ```
 
 # Usage
