@@ -16,7 +16,7 @@
     let hammertime = {};
     let hm = {};
     if (typeof exports == "object") {
-        hm = require('hammer');
+        hm = require('hammerjs');
     } else {
         hm = Hammer;
     }
