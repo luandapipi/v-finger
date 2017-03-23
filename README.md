@@ -15,22 +15,26 @@
 
   * Using Components
 
-`` import vfinger from 'v-finger';``
+```cmd
+  import vfinger from 'v-finger';
 
-``Vue.use(vfinger);``
+  Vue.use(vfinger);
+```
 
   * Direct import
 
-``<script src="//cdn.bootcss.com/vue/2.2.4/vue.js"></script>``
+```html
+  <script src="//cdn.bootcss.com/vue/2.2.4/vue.js"></script>
 
-``<script src="./vue-tap.js"></script>``
+  <script src="./vue-tap.js"></script>
+```
 
 # Usage
 
   * Using the v-finger directive
 
   ```html
-  <div id="demo" v-finger="{methods:callback,a:123,b:3333}">
+    <div id="demo" v-finger="{methods:callback,a:123,b:3333}">
   ```
 
   * add callback method
