@@ -6,6 +6,8 @@
     <title></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <script src="../vue.js"></script>
+    <script src="../hammer.min.js"></script>
+    <script src="../v-finger.js"></script>
 </head>
 <style>
     html,body {
@@ -18,12 +20,14 @@
     #demo {
         height: 100%;
         width: 100%;
+        text-align: center;
+        box-sizing: border-box;
     }
 </style>
 
 <body>
-    <div id="demo">
-
+    <div id="demo" v-finger="{methods:callback,a:123}">
+        <h1>划一下</h1>
     </div>
     <script>
         new Vue({
@@ -35,8 +39,10 @@
                 args: function (index, el, e) {
 
                 },
-                callback: function (e) {
-
+                callback: function (type,e,params) {
+                    console.log(type)
+                    console.log(params)
+                    console.log(e)
                 }
             }
         });

@@ -1,3 +1,5 @@
+#### Touch events plugin for Vue.js. This plugin does not support Vue 1.X.
+
 ## Install
 ----
 You can install it via npm:
