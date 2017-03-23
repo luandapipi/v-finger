@@ -10,7 +10,7 @@
 # Intro
   * This is a hammerjs based on the gesture library,You can easily support a variety of touch events and gestures in your project.
 
-  * By using vfinger you can listen to the gestures of the element finger operation.
+  * By using vfinger you can listen to the gestures of the element gesture operation.
 # How to import
 
   * Using Components
