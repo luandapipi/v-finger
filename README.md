@@ -52,5 +52,10 @@ In use there are any questions, please give me feedback, you can use the followi
 
 Mail (luandapipi@gmail.com)
 
+# grateful
+Thanks for the following items, ranked in no particular order
+
+[hammerjs](https://github.com/hammerjs/hammer.js/)
+
 # License
    * MIT
